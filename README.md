@@ -1,5 +1,5 @@
 # assembly-mini-project
-## systems calls used
+## system calls used
  
 [sys_read](http://man7.org/linux/man-pages/man2/read.2.html)
 
