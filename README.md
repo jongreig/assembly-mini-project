@@ -17,5 +17,5 @@
 
 [sys_exit](http://man7.org/linux/man-pages/man2/exit.2.html)
 
-**am aware of the misuse of the esp register, but compiled binaries work so I see no benefit in fixing the source.**
+**I am aware of the misuse of the esp register, but compiled binaries work so I see no benefit in fixing the source.**
 
