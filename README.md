@@ -1,6 +1,8 @@
 # assembly-mini-project
 ## system calls used
- 
+
+I am aware of the misuse of the esp register, but compiled binaries work so I see no benefit in fixing the source.
+
 [sys_read](http://man7.org/linux/man-pages/man2/read.2.html)
 
 [sys_open](http://man7.org/linux/man-pages/man2/open.2.html)
@@ -19,4 +21,3 @@
 
 
 
-I am aware of the misuse of the esp register, but compiled binaries work so I see no benefit in fixing the source.
